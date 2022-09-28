@@ -1,0 +1,18 @@
+footer {
+    width: 100%;
+    min-height: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin: 20px;
+    align-self: flex-start;
+}
+.foot-nav {
+    max-width: 600px;
+    margin: 20px;
+}
+li {
+    display: inline;
+    margin: 20px;
+}
