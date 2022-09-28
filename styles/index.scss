@@ -1,0 +1,38 @@
+@use 'fonts';
+@import 'header';
+.section-1 {
+
+}
+h6 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.423077px;
+    color: #4A4FF2;
+}
+.info {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #111111;
+    height: 191px;
+    width: 635px;
+}
+.p.r {
+    color: #4A4FF2;
+}
+.quote-1 {
+    font-family: 'Mulish';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    /*border-top: 1px solid black;*/
+}

@@ -1,0 +1,22 @@
+body {
+    max-width: 1360px;
+    width: 100%;
+}
+header {
+    width: 100%;
+    min-height: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin: 20px;
+    align-self: flex-start;
+}
+.navi {
+    max-width: 600px;
+    margin: 20px;
+}
+li {
+    display: inline;
+    margin: 20px;
+}
