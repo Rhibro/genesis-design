@@ -124,8 +124,8 @@ h6 {
   padding: 10px;
   -ms-grid-columns: 1fr 15px 1fr 15px 1fr;
   grid-template-columns: repeat(3, 1fr);
-  -ms-grid-rows: 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr;
-  grid-template-rows: repeat(17, 1fr);
+  -ms-grid-rows: 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr;
+  grid-template-rows: repeat(19, 1fr);
   grid-gap: 15px;
   margin-left: 125px;
   margin-right: 125px;
@@ -386,6 +386,36 @@ h6 {
   -ms-grid-column: 5;
 }
 
+.img-bunch-1 > *:nth-child(52) {
+  -ms-grid-row: 35;
+  -ms-grid-column: 1;
+}
+
+.img-bunch-1 > *:nth-child(53) {
+  -ms-grid-row: 35;
+  -ms-grid-column: 3;
+}
+
+.img-bunch-1 > *:nth-child(54) {
+  -ms-grid-row: 35;
+  -ms-grid-column: 5;
+}
+
+.img-bunch-1 > *:nth-child(55) {
+  -ms-grid-row: 37;
+  -ms-grid-column: 1;
+}
+
+.img-bunch-1 > *:nth-child(56) {
+  -ms-grid-row: 37;
+  -ms-grid-column: 3;
+}
+
+.img-bunch-1 > *:nth-child(57) {
+  -ms-grid-row: 37;
+  -ms-grid-column: 5;
+}
+
 .img-1 {
   -ms-grid-column: 1;
       grid-column-start: 1;
@@ -400,12 +430,12 @@ h6 {
 .img-2 {
   -ms-grid-column: 1;
       grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 30;
-      grid-row-start: 30;
-  -ms-grid-row-span: 10;
-  grid-row-end: 40;
+  -ms-grid-column-span: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 5;
+      grid-row-start: 5;
+  -ms-grid-row-span: 4;
+  grid-row-end: 9;
 }
 
 .img-3 {
@@ -413,10 +443,10 @@ h6 {
       grid-column-start: 2;
   -ms-grid-column-span: 1;
   grid-column-end: 3;
-  -ms-grid-row: 37;
-      grid-row-start: 37;
-  -ms-grid-row-span: 13;
-  grid-row-end: 50;
+  -ms-grid-row: 7;
+      grid-row-start: 7;
+  -ms-grid-row-span: 3;
+  grid-row-end: 10;
 }
 
 .img-4 {
@@ -424,10 +454,10 @@ h6 {
       grid-column-start: 3;
   -ms-grid-column-span: 1;
   grid-column-end: 4;
-  -ms-grid-row: 70;
-      grid-row-start: 70;
-  -ms-grid-row-span: 30;
-  grid-row-end: 100;
+  -ms-grid-row: 14;
+      grid-row-start: 14;
+  -ms-grid-row-span: 5;
+  grid-row-end: 19;
 }
 
 .section-2 {
