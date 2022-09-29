@@ -25,3 +25,21 @@ p {
     width: 100%;
     min-height: 56px;
 }
+form {
+    max-width: 475px;
+    width: 100%;
+    min-height: 291px;
+}
+button {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 50px;
+    width: 125px;
+    background: #4A4FF2;
+    transition-duration: 0.2s;
+}
