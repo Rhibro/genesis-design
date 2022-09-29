@@ -1,0 +1,57 @@
+@use 'fonts';
+@import 'header';
+@import '_footer';
+.div-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+h1 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #111111;
+    min-height: 130px;
+    max-width: 495px;
+    width: 100%;
+    margin: 20px;
+}
+.p-1 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    min-height: 100px;
+    max-width: 635px;
+    width: 100%;
+    margin: 20px;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.walking {
+    display: flex;
+    align-self: center;
+}
+.p-2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.img-group {
+    display: flex;
+    justify-content: space-evenly;
+}
