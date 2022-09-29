@@ -1,6 +1,11 @@
 @use 'fonts';
 @import 'header';
 @import '_footer';
+.grouping {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px
+}
 h1 {
     font-family: 'Mulish';
     font-style: normal;
@@ -29,6 +34,7 @@ form {
     max-width: 475px;
     width: 100%;
     min-height: 291px;
+    align-self: flex-end 
 }
 input {
     font-family: 'Mulish';
@@ -47,6 +53,10 @@ input {
     transition-duration: 1s;
     margin: 20px;
 }
+input:hover {
+    background-color: grey;
+    color: black;
+}    
 button {
     font-family: 'Mulish';
     font-style: normal;
@@ -60,4 +70,13 @@ button {
     background: #4A4FF2;
     transition-duration: 0.2s;
     border: none;
+    margin: 20px;
+}
+button:hover {
+    background-color: grey;
+    color: black;
+}
+.map {
+    align-self: center;
+    margin: 50px;
 }

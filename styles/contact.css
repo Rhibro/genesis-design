@@ -61,6 +61,16 @@ li {
   display: inline;
 }
 
+.grouping {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 50px;
+}
+
 h1 {
   font-family: "Mulish";
   font-style: normal;
@@ -91,6 +101,8 @@ form {
   max-width: 475px;
   width: 100%;
   min-height: 291px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 input {
@@ -112,6 +124,11 @@ input {
   margin: 20px;
 }
 
+input:hover {
+  background-color: grey;
+  color: black;
+}
+
 button {
   font-family: "Mulish";
   font-style: normal;
@@ -126,4 +143,17 @@ button {
   -webkit-transition-duration: 0.2s;
           transition-duration: 0.2s;
   border: none;
+  margin: 20px;
+}
+
+button:hover {
+  background-color: grey;
+  color: black;
+}
+
+.map {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 50px;
 }
