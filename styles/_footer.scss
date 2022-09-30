@@ -1,21 +1,23 @@
 footer {
+    max-width: 600px;
     width: 100%;
-    min-height: 23px;
+    min-height: 20px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .logo {
     margin: 20px;
     align-self: flex-start;
 }
 .foot-nav {
-    max-width: 600px;
     margin: 20px;
-}
+}/*
 li {
     display: inline;
     margin: 20px;
 }
 .social-icon {
     display: inline;
-}
+    margin: 20px;
+}*/

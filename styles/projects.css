@@ -31,14 +31,17 @@ li {
 }
 
 footer {
+  max-width: 600px;
   width: 100%;
-  min-height: 23px;
+  min-height: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .logo {
@@ -48,19 +51,18 @@ footer {
 }
 
 .foot-nav {
-  max-width: 600px;
   margin: 20px;
 }
 
+/*
 li {
-  display: inline;
-  margin: 20px;
+    display: inline;
+    margin: 20px;
 }
-
 .social-icon {
-  display: inline;
-}
-
+    display: inline;
+    margin: 20px;
+}*/
 .div-1 {
   display: -webkit-box;
   display: -ms-flexbox;
