@@ -54,15 +54,15 @@ footer {
   margin: 20px;
 }
 
-/*
-li {
-    display: inline;
-    margin: 20px;
+i {
+  font-size: 20px;
+  background: #000000;
+  max-width: 95px;
+  width: 100%;
+  min-height: 15px;
+  margin: 20px;
 }
-.social-icon {
-    display: inline;
-    margin: 20px;
-}*/
+
 .div-1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -102,12 +102,27 @@ h1 {
   margin: 20px;
 }
 
-ul {
+.list-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  max-width: 335px;
+  width: 100%;
+  min-height: 343px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin: 20px;
 }
 
 .walking {
