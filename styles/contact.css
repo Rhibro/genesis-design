@@ -1,9 +1,9 @@
-body {
-  max-width: 1360px;
-  width: 100%;
-}
-
+/*body {
+    max-width: 1110px;
+    width: 100%;
+}*/
 header {
+  max-width: 1110px;
   width: 100%;
   min-height: 23px;
   display: -webkit-box;
@@ -20,7 +20,7 @@ header {
       align-self: flex-start;
 }
 
-.top-nava {
+.top-nava > a {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
@@ -28,6 +28,7 @@ header {
   line-height: 23px;
   letter-spacing: -0.346154px;
   color: #111111;
+  text-decoration: none;
 }
 
 .navi {
@@ -70,7 +71,7 @@ footer {
           justify-content: space-between;
 }
 
-.nava {
+.nava > a {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
@@ -81,11 +82,12 @@ footer {
   max-width: 66px;
   min-height: 23px;
   display: inline;
+  text-decoration: none;
 }
 
 i {
   font-size: 18px;
-  background: #000000;
+  color: #000000;
   max-width: 95px;
   width: 100%;
   min-height: 15px;

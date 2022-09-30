@@ -1,9 +1,14 @@
 @use 'fonts';
 @import 'header';
 @import '_footer';
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
 .section-1 {
     display: flex;
-    width: 100%;
     justify-content: space-evenly;
 }
 .div-1 {
@@ -26,10 +31,18 @@ h6 {
     line-height: 60px;
     color: #111111;
     height: 191px;
-    width: 635px;
+    max-width: 630px;
+    width: 100%;
 }
 .p.r {
     color: #4A4FF2;
+}
+.quote-conatiner {
+    align-self: flex-end;
+}
+.quote-line {
+    width: 50px;
+    margin-left: 0px;
 }
 .quote-1 {
     font-family: 'Mulish';
@@ -40,11 +53,12 @@ h6 {
     color: #111111;
     mix-blend-mode: normal;
     opacity: 0.6;
-    /*border-top: 1px solid black;*/
     align-self: flex-end;
+    max-width: 500px;
+    width: 100%;
 }
 .img-bunch-1 {
-    max-width: 600px;
+    max-width: 1110px;
     width: 100%;
     min-height: 1960px;
 	height: 100vh;
@@ -111,9 +125,8 @@ h6 {
     align-self: flex-end;
 }
 .div-3 {
-    max-width: 1200px;
+    max-width: 1110px;
     width: 100%;
-	height: 100vh;
     display: grid;
     padding: 10px;
     grid-template-columns: repeat(12, 1fr) ;
@@ -237,9 +250,8 @@ h6 {
     color: #111111;
 }
 .div-4 {
-    max-width: 1200px;
+    max-width: 1110px;
     width: 100%;
-	height: 100vh;
     display: grid;
     padding: 10px;
     grid-template-columns: repeat(12, 1fr) ;

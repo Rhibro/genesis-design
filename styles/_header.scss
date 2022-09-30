@@ -1,8 +1,9 @@
-body {
-    max-width: 1360px;
+/*body {
+    max-width: 1110px;
     width: 100%;
-}
+}*/
 header {
+    max-width: 1110px;
     width: 100%;
     min-height: 23px;
     display: flex;
@@ -12,7 +13,7 @@ header {
     margin: 20px;
     align-self: flex-start;
 }
-.top-nava {
+.top-nava>a {
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
@@ -20,6 +21,7 @@ header {
     line-height: 23px;
     letter-spacing: -0.346154px;
     color: #111111;
+    text-decoration: none;
 }
 .navi {
     max-width: 600px;

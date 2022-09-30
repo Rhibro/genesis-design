@@ -17,7 +17,7 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-.nava {
+.nava>a {
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
@@ -28,10 +28,11 @@ footer {
     max-width: 66px;
     min-height: 23px;
     display: inline;
+    text-decoration: none;
 }
 i {
     font-size: 18px;
-    background: #000000;
+    color: #000000;
     max-width: 95px;
     width: 100%;
     min-height: 15px;
