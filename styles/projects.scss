@@ -48,6 +48,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6, 1fr);
+    margin-left: 20px;
 }
 .list-1_title {
     font-family: 'Mulish';
