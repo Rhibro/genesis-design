@@ -1,17 +1,32 @@
 footer {
-    max-width: 600px;
+    max-width: 1110px;
     width: 100%;
     min-height: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .logo {
     margin: 20px;
-    align-self: flex-start;
+    //align-self: flex-start;
 }
 .foot-nav {
     margin: 20px;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nava {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.346154px;
+    color: #111111;
+    max-width: 66px;
+    min-height: 23px;
 }
 i {
     font-size: 20px;
@@ -19,5 +34,5 @@ i {
     max-width: 95px;
     width: 100%;
     min-height: 15px;
-    margin: 20px;
+    margin: 10px;
 }
