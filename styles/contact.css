@@ -274,10 +274,5 @@ button:hover {
 }
 
 .map {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  margin: 50px;
-  max-width: 1110px;
-  width: 100%;
+  margin-top: 50px;
 }
