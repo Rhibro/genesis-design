@@ -1,7 +1,3 @@
-/*body {
-    max-width: 1110px;
-    width: 100%;
-}*/
 header {
   max-width: 1110px;
   width: 100%;
@@ -187,6 +183,9 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  max-width: 1110px;
+  width: 100%;
+  margin-top: 50px;
 }
 
 h1 {
@@ -201,6 +200,10 @@ h1 {
   min-height: 174px;
 }
 
+/*.info-group {
+    max-width: 500px;
+    width: 100%;
+}*/
 p {
   font-family: "Mulish";
   font-style: normal;
@@ -221,6 +224,7 @@ form {
   min-height: 291px;
   -ms-flex-item-align: end;
       align-self: flex-end;
+  margin-left: 50px;
 }
 
 input {

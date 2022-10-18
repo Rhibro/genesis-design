@@ -10,7 +10,9 @@ body {
 .grouping {
     display: flex;
     justify-content: space-evenly;
-    //margin: 50px
+    max-width: 1110px;
+    width: 100%;
+    margin-top: 50px
 }
 h1 {
     font-family: 'Mulish';
@@ -23,6 +25,10 @@ h1 {
     width: 100%;
     min-height: 174px;
 }
+/*.info-group {
+    max-width: 500px;
+    width: 100%;
+}*/
 p {
     font-family: 'Mulish';
     font-style: normal;
@@ -41,6 +47,7 @@ form {
     width: 100%;
     min-height: 291px;
     align-self: flex-end;
+    margin-left: 50px;
 }
 input {
     font-family: 'Mulish';
