@@ -10,9 +10,10 @@ body {
 .section-1 {
     display: flex;
     justify-content: space-evenly;
-}
-.div-1 {
-    flex-wrap: wrap;
+    align-content: flex-start;
+    max-width: 1110px;
+    width: 100%;
+    margin-top: 20px;
 }
 h6 {
     font-family: 'Mulish';
@@ -34,11 +35,13 @@ h6 {
     max-width: 630px;
     width: 100%;
 }
-.p.r {
+.p-r {
     color: #4A4FF2;
 }
-.quote-conatiner {
+.quote-container {
     align-self: flex-end;
+    max-width: 400px;
+    width: 100%;
 }
 .quote-line {
     width: 50px;
@@ -57,6 +60,7 @@ h6 {
     max-width: 500px;
     width: 100%;
 }
+
 .grid-position {
     max-width: 1110px;
     width: 100%;

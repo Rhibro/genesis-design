@@ -5,7 +5,7 @@
 header {
   max-width: 1110px;
   width: 100%;
-  /*min-height: 23px;*/
+  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -187,11 +187,11 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-}
-
-.div-1 {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  max-width: 1110px;
+  width: 100%;
+  margin-top: 20px;
 }
 
 h6 {
@@ -216,13 +216,15 @@ h6 {
   width: 100%;
 }
 
-.p.r {
+.p-r {
   color: #4A4FF2;
 }
 
-.quote-conatiner {
+.quote-container {
   -ms-flex-item-align: end;
       align-self: flex-end;
+  max-width: 400px;
+  width: 100%;
 }
 
 .quote-line {
