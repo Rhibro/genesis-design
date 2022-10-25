@@ -180,6 +180,7 @@ h6 {
     width: 350px;
     margin: 20px;
     align-self: flex-end;
+    justify-content: space-evenly;
 }
 .div-3 {
     max-width: 1110px;
@@ -318,7 +319,7 @@ h6 {
     grid-gap: 15px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    margin: 10px;
+    margin: 30px;
 }
 .res-10{
     grid-column-start: 1;
@@ -433,4 +434,338 @@ h6 {
     line-height: 20px;
     text-align: right;
     color: #111111;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .section-1 {
+        max-width: 1000px;
+        width: 100%;
+    }
+
+    .info-2 {
+        font-size: 28px;
+        line-height: 38px;
+        max-width: 550px;
+        width: 100%;
+        height: 106px;
+    }
+
+    .list-2 {
+        height: 106px;
+        width: 350px;
+    }
+
+    .div-3 {
+        max-width: 1000px;
+        width: 100%;
+        min-height: 411px;
+    }
+    
+    .div-4 {
+        max-width: 1000px;
+        width: 100%;
+        min-height: 411px;
+    }
+
+}
+
+@media screen and (max-width: 1070px) {
+
+    .section-1 {
+        max-width: 900px;
+        width: 100%;
+    }
+    
+    .info {
+        font-size: 35px;
+        line-height: 55px;
+        height: 191px;
+        max-width: 530px;
+        width: 100%;
+    }
+
+    .div-3 {
+        max-width: 900px;
+        width: 100%;
+        min-height: 411px;
+    }
+    
+    .div-4 {
+        max-width: 900px;
+        width: 100%;
+        min-height: 411px;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+
+    .section-1 {
+        max-width: 800px;
+        width: 100%;
+    }
+
+    .info {
+        font-size: 35px;
+        line-height: 55px;
+        height: 191px;
+        max-width: 430px;
+        width: 100%;
+    }
+
+    .quote-container {
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .info-2 {
+        font-size: 28px;
+        line-height: 38px;
+        max-width: 450px;
+        width: 100%;
+        height: 106px;
+    }
+
+    .list-2 {
+        height: 106px;
+        width: 350px;
+    }
+
+    .div-3 {
+        max-width: 800px;
+        width: 100%;
+        min-height: 411px;
+    }
+    
+    .div-4 {
+        max-width: 800px;
+        width: 100%;
+        min-height: 411px;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+
+    .section-1 {
+        max-width: 700px;
+        width: 100%;
+    }
+
+    .info {
+        font-size: 30px;
+        line-height: 40px;
+        height: 191px;
+        max-width: 330px;
+        width: 100%;
+    }
+
+    .info-2 {
+        font-size: 23px;
+        line-height: 30px;
+        max-width: 350px;
+        width: 100%;
+        min-height: 106px;
+    }
+
+    .list-2 {
+        height: 106px;
+        max-width: 250px;
+        width: 100%;
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    .div-3 {
+        max-width: 700px;
+        width: 100%;
+        min-height: 411px;
+    }
+    
+    .div-4 {
+        max-width: 700px;
+        width: 100%;
+        min-height: 411px;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    .section-1 {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .info {
+        font-size: 25px;
+        line-height: 30px;
+        height: 191px;
+        max-width: 330px;
+        width: 100%;
+    }
+
+    .info-2 {
+        font-size: 23px;
+        line-height: 30px;
+        max-width: 350px;
+        width: 100%;
+        min-height: 106px;
+    }
+
+    .list-2 {
+        height: 106px;
+        max-width: 250px;
+        width: 100%;
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    .div-3 {
+        max-width: 600px;
+        width: 100%;
+        min-height: 411px;
+    }
+    
+    .div-4 {
+        max-width: 600px;
+        width: 100%;
+        min-height: 411px;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+
+    .section-1 {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .info {
+        font-size: 25px;
+        line-height: 30px;
+        height: 191px;
+        max-width: 330px;
+        width: 100%;
+    }
+
+    .info-2 {
+        font-size: 20px;
+        line-height: 25px;
+        max-width: 250px;
+        width: 100%;
+        min-height: 106px;
+    }
+
+    .list-2 {
+        height: 106px;
+        max-width: 250px;
+        width: 100%;
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    .div-3 {
+        max-width: 500px;
+        width: 100%;
+        min-height: 411px;
+    }
+    
+    .div-4 {
+        max-width: 500px;
+        width: 100%;
+        min-height: 411px;
+    }
+
+    .res-1 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .res-2 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .res-3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .res-4 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .res-5 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .res-6 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .res-7 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .res-8 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .res-9 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .res-10 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .res-11 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .res-12 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .res-13 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .res-14 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .res-15 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .res-16 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .res-17 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .res-18 {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }
